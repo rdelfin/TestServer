@@ -93,7 +93,7 @@ int main(int argc, char* argv[])
 	char recvbuf[DEFAULT_BUFLEN];
 	int iResult, iSendResult;
 	int recvbuflen = DEFAULT_BUFLEN;
-	char message[] = "HTTP/1.1 200 OK\nServer: Wat/1.3\nContent-Type: text/html\nContent-Length: 12\nHello world!";
+	char message[] = "HTTP/1.1 200 OK\nServer: Wat/1.3\nContent-Type: text/html\nContent-Length: 12\nConnection: close\n\nHello world!";
 
 	do {
 
