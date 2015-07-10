@@ -125,8 +125,6 @@ int main(int argc, char* argv[])
 			cout << recvbuf << endl << endl;
 			cout << "Value of bytes sent: " << endl;
 			cout << message << endl;
-
-			break;
 		}
 		else if (iResult == 0)
 			printf("Connection closing...\n");
